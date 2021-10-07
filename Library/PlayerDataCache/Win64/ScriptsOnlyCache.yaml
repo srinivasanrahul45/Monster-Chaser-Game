@@ -15,22 +15,16 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelinePreferences
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -78,17 +72,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2992}
     - Class: 114
       Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 40456}
+      Script: {instanceID: 3350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -147,27 +141,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 4270}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 5562}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 29540}
+      Script: {instanceID: 5566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,17 +208,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -279,23 +273,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3082}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 5270}
+      Script: {instanceID: 5274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -437,6 +431,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: b0e88e5c15527b4a65e89eb697a12615
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpdateScore
+  - hash:
+      serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -537,6 +537,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 9538ec7fdaf8886a70771bae45aff503
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOverUIController
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -879,18 +885,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: b0e88e5c15527b4a65e89eb697a12615
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UpdateScore
-  - hash:
-      serializedVersion: 2
-      Hash: 9538ec7fdaf8886a70771bae45aff503
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameOverUIController
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

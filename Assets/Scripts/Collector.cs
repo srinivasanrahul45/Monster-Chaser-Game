@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collector : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class Collector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(ENEMY_TAG) || collision.CompareTag(PLAYER_TAG)) {
+        if (collision.CompareTag(ENEMY_TAG)) {
+            Destroy(collision.gameObject);
+        } else if (collision.CompareTag(PLAYER_TAG))
+        {
+            SceneManager.LoadScene("Game Over Menu");
             Destroy(collision.gameObject);
         }
     }
